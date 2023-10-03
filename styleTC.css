@@ -1,0 +1,55 @@
+/* Reset margin dan padding default pada semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Atur latar belakang dan font untuk seluruh halaman */
+body {
+    background-color: #f0f0f0; /* Warna latar belakang */
+    font-family: Arial, sans-serif; /* Jenis font dan cadangan */
+    line-height: 1.6; /* Tinggi baris teks */
+    color: #333; /* Warna teks utama */
+}
+
+/* Header */
+header {
+    background-color: #333; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigasi */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Kontainer utama */
+.container {
+    max-width: 960px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Tengahkan kontainer di tengah halaman */
+    padding: 20px; /* Ruang di sekitar kontainer */
+    background-color: #fff; /* Warna latar belakang kontainer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan kontainer */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+}
